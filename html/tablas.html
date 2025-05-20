@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Ejercicio tabla</h1>
+  <table border="1px">
+    <tr>
+      <th>Primera celda</th>
+      <th>Segunda celda</th>
+      <th>Tercera celda</th>
+    </tr>
+    <tr>
+      <td>Primera celda, segunda fila</td>
+      <td>Segunda celda, segunda fila</td>
+      <td>Tercera celda, segunda fila</td>
+    </tr>
+  </table>
+
+  <h1>Ejercicio colspan rowspan</h1>
+
+  <table border="1px">
+    <tr>
+      <th colspan="2">Primera celda</th>
+      <th rowspan="2">Segunda celda</th>
+    </tr>
+    <tr>
+      <td >Siguiente fila</td>
+      <td>Bla bla</td>
+    </tr>
+  </table>
+
+  <h1>Ejercicio picasso</h1>
+
+  <table>
+    <tr>
+      <td colspan="6"><img src="img/picasso/picassor1.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td rowspan="4"><img src="img/picasso/picassor2_c1.jpg" alt=""></td>
+      <td><img src="img/picasso/picassor2_c2.jpg" alt=""></td>
+      <td colspan="2"><img src="img/picasso/picassor2_c3.jpg" alt=""></td>
+      <td><img src="img/picasso/picassor2_c5.jpg" alt=""></td>
+      <td rowspan="4"><img src="img/picasso/picassor2_c6.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td><img src="img/picasso/picassor3_c2.jpg" alt=""></td>
+      <td><img src="img/picasso/picassor3_c3.jpg" alt=""></td>
+      <td rowspan="3"><img src="img/picasso/picassor3_c4.jpg" alt=""></td>
+      <td><img src="img/picasso/picassor3_c5.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td rowspan="2" colspan="2"><img src="img/picasso/picassor4_c2.jpg" alt=""></td>
+      <td> <img src="img/picasso/picassor4_c5.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td><img src="img/picasso/picassor5_c5.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td colspan="6"><img src="img/picasso/picassor6_c1.jpg" alt=""></td>
+    </tr>
+  </table>
+
+  <h1>tbody, thead, tfoot</h1>
+  <table border="1px">
+    <thead>
+      <tr>
+        <th>Elementos</th><th>de</th><th>la</th><th>columna</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Y</th><th>elementos</th><th>del</th><th>pie</th>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>1</td><td>bla bla</td><td>blep</td><td>blep</td>
+      </tr>
+      <tr>
+        <td>2</td><td>bla bla</td><td>bla</td><td>bla</td>
+      </tr>
+      <tr>
+        <td>3</td><td>bura bura</td><td>bla</td><td>bura bura</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>4</td><td>blep blep</td><td>OK</td><td>OK</td>
+      </tr>
+      <tr>
+        <td>5</td><td>blip blip</td><td>OK</td><td>OK</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Colgroup</h1>
+  <table border="1px" rules="groups">
+    <caption>Título de la tabla</caption>
+    <colgroup></colgroup>
+    <colgroup></colgroup>
+    <colgroup></colgroup>
+    <colgroup style="background-color: green;"></colgroup>
+
+    <thead>
+      <tr>
+        <th>Elementos</th><th>de</th><th>la</th><th>cabecera</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Y</th><th>elementos</th><th>del</th><th>pie</th>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>1</td><td>bla bla</td><td>blep</td><td>blep</td>
+      </tr>
+      <tr>
+        <td>2</td><td>bla bla</td><td>bla</td><td>bla</td>
+      </tr>
+      <tr>
+        <td>3</td><td>bura bura</td><td>bla</td><td>bura bura</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>4</td><td>blep blep</td><td>OK</td><td>OK</td>
+      </tr>
+      <tr>
+        <td>5</td><td>blip blip</td><td>OK</td><td>OK</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Ejercicio tablas</h1>
+
+  <table border="1px" rules="groups">
+    <colgroup></colgroup>
+    <colgroup></colgroup>
+    <colgroup style="background-color: yellow;"></colgroup>
+
+    <thead>
+      <tr>
+        <th>Alumno</th><th>Mes</th><th>Nota</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Nota media</th>
+        <th></th>
+        <th>6</th>
+      </tr>
+    </tfoot>
+    <tbody style="color: red;">
+      <tr>
+        <td>Jorge Villanueva</td><td>Primero</td><td>6</td>
+      </tr>
+      <tr>
+        <td>Raquel Serrano</td><td>Primero</td><td>4</td>
+      </tr>
+      <tr>
+        <td>Javier Salgado</td><td>Primero</td><td>7</td>
+      </tr>
+    </tbody>
+    <tbody style="color: green;">
+      <tr>
+        <td>Jorge Villanueva</td>
+        <td>Primero</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Raquel Serrano</td>
+        <td>Primero</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Javier Salgado</td>
+        <td>Primero</td>
+        <td>7</td>
+      </tr>
+    </tbody>
+    <tbody style="color: blue;">
+      <tr>
+        <td>Jorge Villanueva</td>
+        <td>Primero</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Raquel Serrano</td>
+        <td>Primero</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Javier Salgado</td>
+        <td>Primero</td>
+        <td>7</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
