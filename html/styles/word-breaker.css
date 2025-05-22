@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: auto;
+  margin: auto;
+  justify-content: center;
+}
