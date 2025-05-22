@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  background-image: url("../img/bg-2.jpg");
+  width: 750px;
+  height: 571px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.text {
+  width: 247px;
+  padding: 10px;
+}

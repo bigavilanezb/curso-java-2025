@@ -1,0 +1,61 @@
+body {
+  background: gray;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.main {
+  width: 1024px;
+  margin: auto;
+  border-bottom: 4px solid black;
+}
+
+.header {
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: black;
+  color: white;
+  font-size: 48px;
+  margin: 0;
+  padding: 10px;
+  text-align: right;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 4px solid white;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.time span {
+  background: darkgray;
+  padding: 5px;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.size {
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline dashed red;
+
+}
+
+.red {
+  color: red;
+  background: white;
+  padding: 2px;
+}

@@ -1,0 +1,53 @@
+body {
+  background: green;
+}
+
+.container {
+  width: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 58px;
+}
+
+.box {
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.box p {
+  color: white;
+  font-size: 16px;
+}
+
+.one {
+  background: white;
+  border: 4px solid black;
+}
+
+.one p {
+  color: black;
+}
+
+.center {
+  margin: auto;
+}
+
+.left {
+  background: rgb(244, 62, 62);
+  border: 4px solid brown;
+}
+
+.right {
+  margin-left: 50%;
+  background: orange;
+  border: 4px solid rgb(167, 108, 0);
+}
+
+.purple {
+  background: blueviolet;
+  border: 4px dashed violet;
+}
+

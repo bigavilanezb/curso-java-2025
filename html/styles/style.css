@@ -1,0 +1,47 @@
+body {
+  background: #ffbb78;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.box {
+  margin: 20px 20px 0 20px;
+  padding: 10px 10px 0 10px;
+}
+
+.box p {
+  font-size: 14px;
+}
+
+.green {
+  background: lightgreen;
+  border: 4px solid green;
+}
+
+.gray {
+  background: lightgray;
+  border: 4px dotted gray;
+}
+
+.yellow {
+  background: lightyellow;
+  border: 4px solid yellow;
+}
+
+.silver {
+  background: rgb(216, 216, 216);
+  border: 4px double silver;
+}
+
+.purple {
+  background: rgb(247, 0, 247);
+  border: 4px dashed purple;
+}

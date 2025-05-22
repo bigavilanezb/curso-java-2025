@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.menu a {
+  text-decoration: none;
+  line-height: normal;
+  color: black;
+}
+
+img {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.left {
+  font-size: 14px;
+  text-align: center;
+  line-height: 80%;
+}
+
+.right {
+  border-left: 1px solid black;
+  padding-left: 20px;
+}

@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  background: gray;
+  margin: 0;
+  padding: 5px;
+}
+
+h2 {
+  background: lightgray;
+  margin: 0;
+  padding: 5px;
+  text-align: right;
+  border-bottom: 4px dashed gray;
+}
+
+h3 {
+  background: lightgray;
+  text-align: center;
+  margin: 0 5px 5px 5px;
+  padding: 5px;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: row nowrap;
+}
+
+.col {
+  width: 200px;
+  margin: 20px;
+  border-inline: 4px dashed gray;
+  border-block: 1px solid black;
+}
+
+.ref {
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.ref h4 {
+  background: rgb(180, 180, 180);
+  color: white;
+  margin: 0;
+  padding: 5px;
+  text-align: right;
+}

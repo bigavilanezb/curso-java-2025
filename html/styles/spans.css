@@ -1,0 +1,44 @@
+body{
+  background: lightblue;
+}
+
+.contenedora{
+  width: 1024px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.green{
+  color: green;
+  background: white;
+}
+
+.blue {
+  color: blue;
+  font-size: 52px;
+  font-style: italic;
+}
+
+.lines{
+  text-decoration: overline underline red;
+  color: red;
+}

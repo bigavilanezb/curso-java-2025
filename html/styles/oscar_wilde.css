@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: rgb(250, 205, 114);
+}
+
+.container {
+  width: auto;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: gray;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.quotes {
+  width: 200px;
+  height: 200px;
+  border: 4px dashed lightsalmon;
+  margin: 10px;
+}
+
+.quotes p:first-of-type::first-letter {
+  font-size: 36px;
+  float: left;
+  line-height: 1.5rem;
+  color: lightsalmon;
+}
+
+.quotes {
+  padding: 10px;
+}
