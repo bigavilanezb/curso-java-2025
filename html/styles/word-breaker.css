@@ -7,3 +7,7 @@ body {
   margin: auto;
   justify-content: center;
 }
+
+.col {
+  font-size: 3rem;
+}
