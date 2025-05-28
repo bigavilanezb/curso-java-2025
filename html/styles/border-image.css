@@ -1,0 +1,5 @@
+.border {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(../img/border.png) 30 stretch;
+}

@@ -1,0 +1,15 @@
+.multiple {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background: url("../img/html-left.png") no-repeat center left, url("../img/html-right.png") no-repeat center right;
+}
+
+.caja {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  background: url("https://pablomonteserin.com/wp-content/uploads/2020/10/tijeras.svg") no-repeat bottom right, url("https://pablomonteserin.com/wp-content/uploads/2020/10/mundo.svg"), radial-gradient(circle, red, yellow, green);
+  background-size: auto auto, 50% 50%;
+
+}

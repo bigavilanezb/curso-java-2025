@@ -1,0 +1,22 @@
+body {
+  background: url("../img/back.jpg") green no-repeat center top;
+}
+
+#center {
+  width: 500px;
+  height: 500px;
+  background: url(https://pablomonteserin.com/wp-content/uploads/2020/10/mundo.svg), url(https://pablomonteserin.com/wp-content/uploads/2020/10/tijeras.svg);
+  background-size: 100% 100%, auto auto;
+}
+
+#world {
+  background: url(https://pablomonteserin.com/wp-content/uploads/2020/10/mundo.svg);
+  width: 1024px;
+  height: 500px;
+}
+
+#rgba {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 0.7);
+}

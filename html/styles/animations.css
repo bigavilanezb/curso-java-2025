@@ -1,0 +1,23 @@
+p * {
+  transition: 2s;
+}
+
+p:hover .h {
+  font-size: 16rem;
+  color: blue;
+}
+
+p:hover .o {
+  font-size: 3  rem;
+  color: brown;
+}
+
+p:hover .l {
+  font-size: 8rem;
+  color: green;
+}
+
+p:hover .a {
+  font-size: 0.5rem;
+  color: purple;
+}

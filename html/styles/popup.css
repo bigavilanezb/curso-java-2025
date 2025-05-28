@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+a .imagenFlotante {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: none;
+  color: black;
+}
+
+a:hover .imagenFlotante {
+  display: block
+}

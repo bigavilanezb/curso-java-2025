@@ -1,0 +1,6 @@
+.repeat {
+  background-image: url("../img/fondo.png");
+  background-repeat: repeat-y;
+  height: 900px;
+  width: 100%;
+}

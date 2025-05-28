@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+.main {
+  margin: auto;
+}
+
+h1, p {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  background-color: #e6b68b;
+  padding: 20px;
+  border-block: 2px solid #b4764f ;
+}
+
+.container {
+  background: gray;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caja {
+  width: 50%;
+  height: 200px;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.c1 {
+  top: 0;
+  left: 0;
+  background-color: yellow;
+  border: 2px solid rgb(177, 177, 0);
+}
+
+.c2 {
+  top: 0;
+  right: 0;
+  background-color: cyan;
+  border: 2px solid darkcyan;
+}
+
+.c3 {
+  bottom: 0;
+  left: 0;
+  background-color: lightgreen;
+  border: 2px solid green;
+}
+
+.c4 {
+  bottom: 0;
+  right: 0;
+  background-color: violet;
+  border: 2px solid darkviolet;
+}
+
+.c5 {
+  top: 25%;
+  left: 25%;
+  position: absolute;
+  background-color: pink;
+  border: 2px solid rgb(255, 136, 156);
+}
+
+.caja:hover {
+  z-index: 1;
+}

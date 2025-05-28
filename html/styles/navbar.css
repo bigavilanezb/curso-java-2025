@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.animations {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.animations a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: url(../img/indiana.png), linear-gradient(green, red);
+  transition: 2s;
+  border: 2px solid red;
+  box-shadow: 2px 2px 3px black;
+  text-shadow: 2px 2px 3px orange;
+  border-radius: 10px;
+
+}
+
+.animations a:hover {
+  background-position: -60px;
+}
