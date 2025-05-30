@@ -1,0 +1,67 @@
+.container {
+  margin-top: 20px;
+  width: 900px;
+  height: 50px;
+  border: 1px solid black
+}
+
+.container .barra {
+  height: 100%;
+  background: green;
+  width: 0;
+}
+
+.container:hover .barra {
+  animation: muevete 1s forwards;
+
+}
+
+@keyframes muevete {
+  to {
+    width: 75%
+  }
+}
+
+.container .red {
+  height: 100%;
+  background-color: red;
+  width: 0;
+}
+
+.container .corazon {
+  background: url(../img/corazon-mask.png);
+  background-size: auto 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.container:hover .red {
+  animation: heart 1s forwards;
+
+}
+
+@keyframes heart {
+  to {
+    width: 75%
+  }
+}
+
+.espiral {
+  margin-top: 300px;
+  width: 300px;
+  height: 300px;
+}
+
+.espiral img {
+  animation: rotacion 2s infinite linear;  
+}
+
+@keyframes rotacion {
+  from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+}

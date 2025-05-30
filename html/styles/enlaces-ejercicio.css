@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+ul * {
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  width: 1024px;
+}
+
+.navbar {
+  width: auto;
+  padding-left: 0;
+  list-style: none;
+}
+
+.navbar li {
+  display: block;
+  position: relative;
+  width: 50%;
+}
+
+.navbar li a {
+  color: black;
+  background: pink;
+  border: solid black 3px;
+  border-radius: 10px;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navbar li a:hover {
+  background-color: salmon;
+}
+
+.navbar li.hasChildren > a:after {
+  font-family: flechita;
+  content: " o";
+}
+
+.navbar .hasChildren ul {
+  margin: 3px;
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition: 1s;
+  left: 100%;
+  top: 0;
+}
+
+.navbar .hasChildren:hover ul {
+  opacity: 1;
+  max-height: 800px
+}
+
+.navbar .hasChildren li {
+  display: inline;
+}
+
+
+@font-face {
+  font-family: flechita;
+  src: url(../fonts/Arrows_tfb.ttf);
+}

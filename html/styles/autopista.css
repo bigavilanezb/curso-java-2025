@@ -1,0 +1,151 @@
+@font-face {
+  font-family: autopista;
+  src: url(../img/autopista/Roboto-Thin.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: autopista;
+  width: 100%;
+}
+
+.navbar {
+
+  background-color: #00000038;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  position: sticky;
+  top: 0;
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  li {
+    padding: 20px;
+    border-right: 1px solid white;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+}
+
+.banner {
+  background-image: url(../img/autopista/header.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+
+  .b2 {
+    height: 500px;
+  }
+}
+
+.main {
+  background-color: white;
+
+  h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  p {
+    color: gray;
+    font-size: 14px;
+  }
+
+  .line {
+    height: 3px;
+    background-color: gray;
+  }
+}
+
+.col-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.col {
+
+  h2 {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    padding: 5px;
+    width: auto;
+  }
+}
+
+.col_left {
+  img {
+    height: auto;
+    width: 574px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.col_right {
+  img {
+    height: auto;
+    width: 574px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.b2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+
+  p {
+    color: white;
+    font-size: 16px;
+  }
+}
+
+footer {
+  background-color: black;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  h2 {
+    color: white;
+    font-size: 24px;
+  }
+
+  p  {
+    color: white !important;
+    font-size: 16px !important;
+    text-align: center;
+  }
+}

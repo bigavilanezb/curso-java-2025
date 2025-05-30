@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+}
+
+ul * {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  font-family: grassy-font;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #16A085B3;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  padding: 15px;
+}
+
+.navbar li:hover {
+  background: rgba(127, 210, 127, 0.212);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+  padding-top: 100px;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 12px;
+  margin: 0;
+}
+
+.imgFoto {
+  background-image: url(../img/grassy/pic01.jpg);
+  width: auto;
+  height: 600px;
+}
+
+.content {
+  margin-inline: 150px;
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.col-c1 {
+
+  h2 {
+    color: green;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    color: gray;
+    font-size: 14px;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+}
+
+.col-c2 {
+  min-width: 300px;
+
+  h2 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    line-height: 250%;
+  }
+
+  a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+}
+
+.footer-1 {
+  background-color: black;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;  
+}
+
+.col-f {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: auto;
+
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  a {
+    color: gray;
+    line-height: 200%;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 15 px;
+  }
+}
+
+.footer-2 {
+  padding: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #16A085;
+}
+
+
+
+
+
+@font-face {
+  font-family: grassy-font;
+  src: url(../img/grassy/fuente.woff);
+}
+
