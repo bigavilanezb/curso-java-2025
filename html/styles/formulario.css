@@ -1,0 +1,17 @@
+
+label {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  margin-top: 5px;
+}
+
+textarea {
+  height: 150px;
+}
+
+#submit {
+  margin-left: 120px;
+  margin-top: 5px;
+  width: 90px;
+}

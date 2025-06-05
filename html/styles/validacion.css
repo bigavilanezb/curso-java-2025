@@ -1,0 +1,25 @@
+form {
+  vertical-align: bottom;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 200px;
+}
+
+input[required] {
+  border: solid 4px black;
+}
+
+input:not([type=submit]):valid {
+  background: rgb(107, 255, 107);
+}
+
+input:not([type=submit]):invalid {
+  background: rgb(255, 132, 132);
+}

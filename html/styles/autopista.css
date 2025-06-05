@@ -77,6 +77,8 @@ body {
 
 .col {
 
+  width: 33%;
+
   h2 {
     text-align: center;
   }
@@ -96,7 +98,9 @@ body {
   }
 }
 
-.col_left {
+.col-left {
+
+  width: 576px;
   img {
     height: auto;
     width: 574px;
@@ -107,7 +111,8 @@ body {
   }
 }
 
-.col_right {
+.col-right {
+  width: 576px;
   img {
     height: auto;
     width: 574px;

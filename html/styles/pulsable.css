@@ -1,0 +1,20 @@
+body { 
+  margin: 0;
+}
+
+label {
+  background-color: rgb(255, 138, 138);
+  cursor: pointer;
+}
+
+input {
+  display: none;
+}
+
+span {
+  opacity: 0;
+}
+
+input:checked +.texto {
+  opacity: 1;
+}

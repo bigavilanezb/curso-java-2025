@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/validacion-2.css">
+  <title>Validación 2</title>
+</head>
+<body>
+
+  <h1>Validación de un formulario con HTML</h1>
+
+  <form method="post">
+    <label for="name">Nombre: </label><input type="text" name="name" id="name" required><img src="img/success.png" alt=""><br>
+
+    <label for="age">Edad: </label><input type="number" name="age" id="age" required><img src="img/success.png" alt=""><br>
+
+    <label for="cpostal">Código Postal: </label><input type="number" name="cpostal" id="cpostal" required><img src="img/success.png" alt=""><br>
+
+    <label for="email">Email: </label><input type="email" name="email" id="email"><img src="img/success.png" alt=""><br>
+
+    <label for="date">Fecha de reserva:</label><input type="date" name="date" id="date" required><img src="img/success.png" alt=""><br>
+
+    <label for="nota">Nota: </label><input type="range" max="10" min="0" value="7" step="2"/><img src="img/success.png" alt=""><br>
+
+    <input type="submit" value="Enviar" name="submit" id="submit">
+
+  </form>
+</body>
+</html>
