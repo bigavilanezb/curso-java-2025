@@ -75,13 +75,13 @@ console.log(myVar);
 let myVar2 = 11;
 myVar2--;
 console.log(myVar2);
-
+/*
 let x = 3;
 x++;
 x = x * 2;
 x--;
 console.log(x); // ¿Cuánto valdrá x?
-
+*/
 const dato1 = 10;
 const dato2 = 10;
 if(dato1 == dato2){
@@ -222,5 +222,223 @@ console.log(suma)
 const number1 = 7;
 const number2 = 0;
 for (let i = 1; i <= 10; i++) {
-  console.log('7 * ' + i + ' = ' + number1 * i)
+  console.log('7 * ' + i + ' = ' + number1 * i);
 }
+
+// BULE WHILE
+
+let p = 5;
+let sum = 0;
+while (p >= 0) {
+	sum += p;
+	p--;
+}
+
+console.log('La suma del 1 al 5 es: ' + sum);
+
+let cositas = 'aaaaaaaaaaaaaaaa';
+function saludar(nombre){
+  console.log(cositas);
+  console.log("Buenas tardes " + nombre);
+}
+
+saludar("Pablo");
+
+console.log(nombre)
+
+function ciertoFalso(resultadoValor) {
+  console.log(resultadoValor ? 'Si, eso es cierto' : 'No, eso es falso' );
+}
+
+ciertoFalso(true);
+
+function hoyQuieroComer(comida) {
+  console.log('hoy quiero comer ' + comida);
+}
+
+hoyQuieroComer('garbanzos');
+
+
+function calcularCubo(cubo) {
+  const numero = cubo * cubo * cubo;
+  console.log(numero)
+}
+
+calcularCubo(3)
+
+function calcularVelocidad(km) {
+  meter = km * 1000;
+  console.log(meter);
+}
+
+calcularVelocidad(3)
+
+function calcularArea(ancho, alto) {
+  const area = ancho * alto;
+  console.log(area);
+}
+
+calcularArea(4, 5)
+
+function calcularTriangulo(base, altura){
+  const triangulo = base*altura/2;
+  console.log(triangulo);
+}
+
+calcularTriangulo(3, 7)
+
+function calculaPerimetro(radio) {
+  perimetro = 2*Math.PI*radio;
+  console.log(perimetro)
+}
+
+calculaPerimetro(3);
+
+function calculaArea(radio) {
+  const area = Math.PI* radio * radio;
+  console.log(area)
+}
+
+calculaArea(3);
+
+// Ejercicios function 2
+
+function hello() {
+	return "Hi!";
+}
+
+/*
+
+const x = hello();
+console.log(x);
+
+function reply(phrase) {
+	return phrase;
+}
+
+const x = reply("How do you do?");
+console.log(x); // ¿Qué valor de x se mostrará en la consola?
+
+function whereIs(name) {
+	return "Dónde esta " + name + "?";
+}
+
+const x = whereIs("Jacky");
+console.log(x); // ¿Qué valor de x se mostrará en la consola? */
+
+function echo(texto) {
+  return texto;
+}
+
+const word = echo('Grace');
+console.log(word);
+
+function saludar(saludo) {
+  return '¡Hola ' + saludo + '!';
+}
+
+const hi = saludar('Marta');
+console.log(hi);
+
+function test(val) {
+	if (val >= 10 && val <=20) { // Cambia esta línea
+		return "Inside";
+	}else {
+		return "Outside";
+	}
+}
+
+const inou = test(21);
+console.log(inou);
+
+function testEqual(val) {
+	if (val === 12) { // Cambia esta línea
+		return "Equal";
+	}
+	return "Not Equal";
+}
+
+const igual = testEqual(12);
+console.log(igual);
+
+function testElse(val) {
+	let result = "";
+	if (val > 5) {
+		result = "Mayor que 5";
+	} else {
+		result = "Menor o igual a 5";
+	}
+
+  return result;
+
+}
+
+const mayorMenor = testElse(4);
+console.log(mayorMenor);
+
+function testElse(val) {
+	let result = "";
+
+	if (val > 5) {
+		result = "Bigger than 5";
+	} else if (val < 5) {
+	result = "Smaller than 5";
+	} else {
+		result = "Equal to 5";
+	}
+	return result;
+}
+
+const equalTo = testElse(10);
+console.log(equalTo);
+
+function testSize(num) {
+
+  if (num < 5) {
+    return "Tiny";
+  } else if (num < 10) {
+    return "Small";
+  } else if (num < 15) {
+    return "Medium";
+  } else if (num < 20) {
+    return "Large";
+  } else {
+    return "Huge";
+  }
+}
+
+const logicaSize = testSize(20);
+console.log(logicaSize);
+
+const flecha = (num) => {
+  const resultado = num * num * num
+  console.log(resultado);
+}
+
+flecha(3);
+
+const pasarVelocidad = (km) => km * 1000;
+
+const mh = pasarVelocidad(4);
+console.log(mh);
+
+const calcArea = (ancho, alto) => ancho * alto;
+
+const area2 = calcArea(2 ,3);
+console.log(area2);
+
+
+
+const areaTriangulo = (base, alto) => base * alto / 2;
+
+const trianguloArea = (4, 5);
+console.log(trianguloArea);
+
+const perimetroCircunferencia = (radio) => 2*Math.PI*radio;
+const perimetroArea = (radio) => Math.PI*radio*radio;
+
+const calcCircunferencia = perimetroCircunferencia(3);
+const calcuArea = perimetroArea(3);
+
+console.log(calcCircunferencia);
+console.log(calcuArea);
