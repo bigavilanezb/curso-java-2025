@@ -1,30 +1,14 @@
-import A from "./components/A"
-import B from "./components/B"
-import C from "./components/C"
+import books from './data/books.json';
+import Book from './components/Book';
 
 const App = () => {
-
   return (
-    <div>
-      <A />
-      <B />
-      <C />
-    </div>
-  );
-  
-  /*const handleClick= (e) => {
-    console.log(e)
-  }
-
-  const code = (
     <>
-    <h1 style={{background:"green", color:"white"}}>hola</h1>
-    <div onClick={handleClick}>JSJSJSJSJSJ</div>
+      {
+        books.map(book => <Book key={book.title} book={book} />)
+      }
     </>
   )
-
-  return <div>{code}</div>
-  */
-
 }
+
 export default App
